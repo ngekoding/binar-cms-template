@@ -1,0 +1,218 @@
+@import "variables.scss";
+@import "mixin.scss";
+@import "bs-override.scss";
+
+body {
+	background: $colorBackground;
+}
+
+.navbar-custom {
+	background: $colorBackgroundNavbar;
+	border-bottom: 1px solid $colorBorder;
+	padding-right: 20px;
+
+	.img-profile {
+		margin-top: 7px;
+	}
+}
+
+.sidebar-wrap {
+	position: fixed;
+	z-index: 1031;
+	width: 200px;
+	background: $colorBackgroundPrimary;
+	height: 100vh;
+	box-sizing: border-box;
+	
+	.image-brand-wrap {
+		height: 50px;
+		padding-top: 13px;
+
+		.img-brand {
+			display: block;
+			height: 24px;
+			margin: auto;
+		}
+	}
+
+	.sidebar-menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li a {
+			display: block;
+			padding: 15px 15px;
+			color: $colorMenu;
+			text-decoration: none;
+			border-left: 3px solid $colorBackgroundPrimary;
+
+			&:hover, &:active, &:visited, &:focus {
+				text-decoration: none;
+			}
+
+			&:hover, &.active {
+				background: $colorBackgroundSecondary;
+				color: $colorMenuHover;
+				border-left: 3px solid $colorMenuBorder;
+			}
+
+			i.fa {
+				padding-right: 10px;
+			}
+		}
+
+		/* Dropdown menu */
+		ul {
+			display: none;
+			list-style: none;
+			background: $colorBackgroundSecondary;
+			padding: 0;
+
+			li a {
+				border-left: 3px;
+
+				&:hover {
+					border-left: none;
+				}
+			}
+		}
+	}
+}
+
+.notification-wrap {
+	right: 0;
+	position: absolute;
+	background: $colorBackgroundNavbar;
+	width: 180px;
+	height: 100vh;
+	border-left: 1px solid $colorBorder;
+
+	.notif-header {
+		margin-top: 50px;
+		padding: 20px;
+
+		i.fa {
+			background: $colorMenuBorder;
+			padding: 10px;
+			color: $colorMenuHover;
+			@include border-radius(3px);
+		}
+
+		span {
+			margin-left: 5px;
+			font-weight: bold;
+		}
+	}
+
+	.notif-content {
+		margin: 0 20px;
+
+		.notif-list .notif-list-title {
+			color: $colorNotifTitle;
+			font-size: 12px;
+			padding-bottom: 5px;
+			border-bottom: 1px solid $colorBorder;
+		}
+
+		.notif-list ul {
+			padding: 0;
+			margin-left: 15px;
+			margin-top: 10px;
+
+			.event-name {
+				font-size: 11px;
+				font-weight: bold;
+				color: $colorNotifEventName;
+			}
+
+			.event-description {
+				font-size: 10px;
+				color: $colorNotifEventDesc;
+			}
+		}
+	}
+}
+
+.content-wrap {
+	width: calc(100% - 380px);
+	margin-left: 200px;
+	margin-top: 70px;
+	float: left;
+	
+	.container-custom {
+		margin: 25px;
+		
+		.content {
+			padding: 15px;
+			@include border-radius(3px);
+
+			&.content-bg {
+				background: #fff;
+			}
+		}
+	}
+
+	.content-title {
+		color: $colorContentTitle;
+		font-size: 25px;
+		margin: 0;
+	}
+
+	.box-wrap {
+		background: #fff;
+		@include border-radius(3px);
+		overflow: hidden;
+
+		i.fa {
+			padding: 15px;
+			float: left;
+		}
+
+		.box-content {
+			margin: 15px;
+
+			.box-number {
+				font-size: 25px;
+			}
+		}
+
+		&.box-blue {
+			i.fa, .box-number {
+				color: $colorBoxBlue;
+			}
+		}
+
+		&.box-red {
+			i.fa, .box-number {
+				color: $colorBoxRed;
+			}
+		}
+
+		&.box-green {
+			i.fa, .box-number {
+				color: $colorBoxGreen;
+			}
+		}
+	}
+}
+
+/* Form search */
+.form-search {
+	float: right;
+
+	.input-search {
+		border: 1px solid #E0E0E0;
+		@include border-radius(15px);
+		background: url(../images/icon-search.svg) no-repeat 7px rgba(255, 255, 255, .5);
+		padding: 5px 5px 5px 35px;
+		font-size: 12px;
+		@include placeholder {
+			color: #E0E0E0;
+		}
+		
+		&:focus {
+			outline: none;
+		}
+	}
+}

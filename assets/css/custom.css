@@ -1,0 +1,246 @@
+/* line 1, ../scss/bs-override.scss */
+.navbar {
+  border: none;
+  margin-left: 200px;
+}
+
+/* line 6, ../scss/bs-override.scss */
+.navbar-right a {
+  color: #323c47;
+}
+
+/* line 5, ../scss/custom.scss */
+body {
+  background: #f4f8f9;
+}
+
+/* line 9, ../scss/custom.scss */
+.navbar-custom {
+  background: #fafbfc;
+  border-bottom: 1px solid #e7e9ea;
+  padding-right: 20px;
+}
+/* line 14, ../scss/custom.scss */
+.navbar-custom .img-profile {
+  margin-top: 7px;
+}
+
+/* line 19, ../scss/custom.scss */
+.sidebar-wrap {
+  position: fixed;
+  z-index: 1031;
+  width: 200px;
+  background: #4f4f4f;
+  height: 100vh;
+  box-sizing: border-box;
+}
+/* line 27, ../scss/custom.scss */
+.sidebar-wrap .image-brand-wrap {
+  height: 50px;
+  padding-top: 13px;
+}
+/* line 31, ../scss/custom.scss */
+.sidebar-wrap .image-brand-wrap .img-brand {
+  display: block;
+  height: 24px;
+  margin: auto;
+}
+/* line 38, ../scss/custom.scss */
+.sidebar-wrap .sidebar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* Dropdown menu */
+}
+/* line 43, ../scss/custom.scss */
+.sidebar-wrap .sidebar-menu li a {
+  display: block;
+  padding: 15px 15px;
+  color: #efefef;
+  text-decoration: none;
+  border-left: 3px solid #4f4f4f;
+}
+/* line 50, ../scss/custom.scss */
+.sidebar-wrap .sidebar-menu li a:hover, .sidebar-wrap .sidebar-menu li a:active, .sidebar-wrap .sidebar-menu li a:visited, .sidebar-wrap .sidebar-menu li a:focus {
+  text-decoration: none;
+}
+/* line 54, ../scss/custom.scss */
+.sidebar-wrap .sidebar-menu li a:hover, .sidebar-wrap .sidebar-menu li a.active {
+  background: #646464;
+  color: white;
+  border-left: 3px solid #63adff;
+}
+/* line 60, ../scss/custom.scss */
+.sidebar-wrap .sidebar-menu li a i.fa {
+  padding-right: 10px;
+}
+/* line 66, ../scss/custom.scss */
+.sidebar-wrap .sidebar-menu ul {
+  display: none;
+  list-style: none;
+  background: #646464;
+  padding: 0;
+}
+/* line 72, ../scss/custom.scss */
+.sidebar-wrap .sidebar-menu ul li a {
+  border-left: 3px;
+}
+/* line 75, ../scss/custom.scss */
+.sidebar-wrap .sidebar-menu ul li a:hover {
+  border-left: none;
+}
+
+/* line 83, ../scss/custom.scss */
+.notification-wrap {
+  right: 0;
+  position: absolute;
+  background: #fafbfc;
+  width: 180px;
+  height: 100vh;
+  border-left: 1px solid #e7e9ea;
+}
+/* line 91, ../scss/custom.scss */
+.notification-wrap .notif-header {
+  margin-top: 50px;
+  padding: 20px;
+}
+/* line 95, ../scss/custom.scss */
+.notification-wrap .notif-header i.fa {
+  background: #63adff;
+  padding: 10px;
+  color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 102, ../scss/custom.scss */
+.notification-wrap .notif-header span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+/* line 108, ../scss/custom.scss */
+.notification-wrap .notif-content {
+  margin: 0 20px;
+}
+/* line 111, ../scss/custom.scss */
+.notification-wrap .notif-content .notif-list .notif-list-title {
+  color: #dce0e5;
+  font-size: 12px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e7e9ea;
+}
+/* line 118, ../scss/custom.scss */
+.notification-wrap .notif-content .notif-list ul {
+  padding: 0;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+/* line 123, ../scss/custom.scss */
+.notification-wrap .notif-content .notif-list ul .event-name {
+  font-size: 11px;
+  font-weight: bold;
+  color: black;
+}
+/* line 129, ../scss/custom.scss */
+.notification-wrap .notif-content .notif-list ul .event-description {
+  font-size: 10px;
+  color: #bcc7cf;
+}
+
+/* line 137, ../scss/custom.scss */
+.content-wrap {
+  width: calc(100% - 380px);
+  margin-left: 200px;
+  margin-top: 70px;
+  float: left;
+}
+/* line 143, ../scss/custom.scss */
+.content-wrap .container-custom {
+  margin: 25px;
+}
+/* line 146, ../scss/custom.scss */
+.content-wrap .container-custom .content {
+  padding: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 150, ../scss/custom.scss */
+.content-wrap .container-custom .content.content-bg {
+  background: #fff;
+}
+/* line 156, ../scss/custom.scss */
+.content-wrap .content-title {
+  color: #233539;
+  font-size: 25px;
+  margin: 0;
+}
+/* line 162, ../scss/custom.scss */
+.content-wrap .box-wrap {
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+/* line 167, ../scss/custom.scss */
+.content-wrap .box-wrap i.fa {
+  padding: 15px;
+  float: left;
+}
+/* line 172, ../scss/custom.scss */
+.content-wrap .box-wrap .box-content {
+  margin: 15px;
+}
+/* line 175, ../scss/custom.scss */
+.content-wrap .box-wrap .box-content .box-number {
+  font-size: 25px;
+}
+/* line 181, ../scss/custom.scss */
+.content-wrap .box-wrap.box-blue i.fa, .content-wrap .box-wrap.box-blue .box-number {
+  color: #4da1ff;
+}
+/* line 187, ../scss/custom.scss */
+.content-wrap .box-wrap.box-red i.fa, .content-wrap .box-wrap.box-red .box-number {
+  color: #e65858;
+}
+/* line 193, ../scss/custom.scss */
+.content-wrap .box-wrap.box-green i.fa, .content-wrap .box-wrap.box-green .box-number {
+  color: #219653;
+}
+
+/* Form search */
+/* line 201, ../scss/custom.scss */
+.form-search {
+  float: right;
+}
+/* line 204, ../scss/custom.scss */
+.form-search .input-search {
+  border: 1px solid #E0E0E0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: url(../images/icon-search.svg) no-repeat 7px rgba(255, 255, 255, 0.5);
+  padding: 5px 5px 5px 35px;
+  font-size: 12px;
+}
+/* line 2, ../scss/mixin.scss */
+.form-search .input-search::-webkit-input-placeholder {
+  color: #E0E0E0;
+}
+/* line 3, ../scss/mixin.scss */
+.form-search .input-search:-moz-placeholder {
+  color: #E0E0E0;
+}
+/* line 4, ../scss/mixin.scss */
+.form-search .input-search::-moz-placeholder {
+  color: #E0E0E0;
+}
+/* line 5, ../scss/mixin.scss */
+.form-search .input-search:-ms-input-placeholder {
+  color: #E0E0E0;
+}
+/* line 214, ../scss/custom.scss */
+.form-search .input-search:focus {
+  outline: none;
+}
