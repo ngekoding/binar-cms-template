@@ -123,59 +123,63 @@ body {
   margin: 0 20px;
 }
 /* line 111, ../scss/custom.scss */
+.notification-wrap .notif-content .notif-list {
+  margin-bottom: 20px;
+}
+/* line 115, ../scss/custom.scss */
 .notification-wrap .notif-content .notif-list .notif-list-title {
   color: #dce0e5;
   font-size: 12px;
   padding-bottom: 5px;
   border-bottom: 1px solid #e7e9ea;
 }
-/* line 118, ../scss/custom.scss */
+/* line 122, ../scss/custom.scss */
 .notification-wrap .notif-content .notif-list ul {
   padding: 0;
   margin-left: 15px;
   margin-top: 10px;
 }
-/* line 123, ../scss/custom.scss */
+/* line 127, ../scss/custom.scss */
 .notification-wrap .notif-content .notif-list ul .event-name {
   font-size: 11px;
   font-weight: bold;
   color: black;
 }
-/* line 129, ../scss/custom.scss */
+/* line 133, ../scss/custom.scss */
 .notification-wrap .notif-content .notif-list ul .event-description {
   font-size: 10px;
   color: #bcc7cf;
 }
 
-/* line 137, ../scss/custom.scss */
+/* line 141, ../scss/custom.scss */
 .content-wrap {
   width: calc(100% - 380px);
   margin-left: 200px;
   margin-top: 70px;
   float: left;
 }
-/* line 143, ../scss/custom.scss */
+/* line 147, ../scss/custom.scss */
 .content-wrap .container-custom {
   margin: 25px;
 }
-/* line 146, ../scss/custom.scss */
+/* line 150, ../scss/custom.scss */
 .content-wrap .container-custom .content {
   padding: 15px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 150, ../scss/custom.scss */
+/* line 154, ../scss/custom.scss */
 .content-wrap .container-custom .content.content-bg {
   background: #fff;
 }
-/* line 156, ../scss/custom.scss */
+/* line 160, ../scss/custom.scss */
 .content-wrap .content-title {
   color: #233539;
   font-size: 25px;
   margin: 0;
 }
-/* line 162, ../scss/custom.scss */
+/* line 166, ../scss/custom.scss */
 .content-wrap .box-wrap {
   background: #fff;
   -webkit-border-radius: 3px;
@@ -183,38 +187,38 @@ body {
   border-radius: 3px;
   overflow: hidden;
 }
-/* line 167, ../scss/custom.scss */
+/* line 171, ../scss/custom.scss */
 .content-wrap .box-wrap i.fa {
   padding: 15px;
   float: left;
 }
-/* line 172, ../scss/custom.scss */
+/* line 176, ../scss/custom.scss */
 .content-wrap .box-wrap .box-content {
   margin: 15px;
 }
-/* line 175, ../scss/custom.scss */
+/* line 179, ../scss/custom.scss */
 .content-wrap .box-wrap .box-content .box-number {
   font-size: 25px;
 }
-/* line 181, ../scss/custom.scss */
+/* line 185, ../scss/custom.scss */
 .content-wrap .box-wrap.box-blue i.fa, .content-wrap .box-wrap.box-blue .box-number {
   color: #4da1ff;
 }
-/* line 187, ../scss/custom.scss */
+/* line 191, ../scss/custom.scss */
 .content-wrap .box-wrap.box-red i.fa, .content-wrap .box-wrap.box-red .box-number {
   color: #e65858;
 }
-/* line 193, ../scss/custom.scss */
+/* line 197, ../scss/custom.scss */
 .content-wrap .box-wrap.box-green i.fa, .content-wrap .box-wrap.box-green .box-number {
   color: #219653;
 }
 
 /* Form search */
-/* line 201, ../scss/custom.scss */
+/* line 205, ../scss/custom.scss */
 .form-search {
   float: right;
 }
-/* line 204, ../scss/custom.scss */
+/* line 208, ../scss/custom.scss */
 .form-search .input-search {
   border: 1px solid #E0E0E0;
   -webkit-border-radius: 15px;
@@ -240,7 +244,7 @@ body {
 .form-search .input-search:-ms-input-placeholder {
   color: #E0E0E0;
 }
-/* line 214, ../scss/custom.scss */
+/* line 218, ../scss/custom.scss */
 .form-search .input-search:focus {
   outline: none;
 }

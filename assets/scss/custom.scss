@@ -107,6 +107,10 @@ body {
 
 	.notif-content {
 		margin: 0 20px;
+		
+		.notif-list {
+			margin-bottom: 20px;
+		}
 
 		.notif-list .notif-list-title {
 			color: $colorNotifTitle;
